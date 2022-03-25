@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-image: url('https://static.educalingo.com/img/it/800/mondo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center h1 {
+    color: white;
+    font-size: 80px;
+}
