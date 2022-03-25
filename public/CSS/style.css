@@ -3,6 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    min-height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 0px 20px;
+}
 
 main {
     height: 100vh;
@@ -14,6 +28,24 @@ main {
 }
 
 .center h1 {
-    color: white;
+    color: rgb(8, 8, 8);
     font-size: 80px;
+}
+
+.center-1 {
+    background-image: url('https://cdn.studenti.stbm.it/images/2017/03/13/luna-orig.jpeg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.center-2 {
+    background-image: url('https://www.focus.it/images/2020/07/21/illustrazione-la-galassia-in-cui-abitiamo._1020x680.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.center-3 {
+    background-image: url('https://www.focus.it/site_stored/imgs/0004/022/uni3.1020x680.jpg');
+    background-size: cover;
+    height: 100vh;
 }

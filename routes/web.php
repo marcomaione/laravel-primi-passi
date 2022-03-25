@@ -20,3 +20,18 @@ Route::get('/', function () {
 
     return view('first_steps', $data);
 });
+
+Route::get('/contatti', function () {
+    return view('contatti');
+   
+});
+
+Route::get('/chi_siamo', function () {
+    return view('chi_siamo');
+   
+});
+
+Route::get('/esplora', function () {
+    return view('esplora');
+   
+});

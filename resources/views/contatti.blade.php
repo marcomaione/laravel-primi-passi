@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first steps laravel</title>
+    <title>contatti</title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <header>
+<header>
         <nav>
-            <a href="/contatti">Contatti</a>
-            <a href="/contatti">Chi Siamo</a>
-            <a href="/contatti">Esplora</a>
+            <a href="/chi_siamo">Chi Siamo</a>
+            <a href="/esplora">Esplora</a>
+            <a href="/">Home</a>
         </nav>
     </header>
-    <main>
-        <div class="center">
-            <h1>{{ $stringa }}</h1>
-        </div>
-    </main>
     
+        <div class="center-1">
+            
+
+        </div>
+
+
 </body>
 </html>
