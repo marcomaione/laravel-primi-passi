@@ -10,7 +10,7 @@
 <body>
     <main>
         <div class="center">
-            <h1>Hello World !</h1>
+            <h1>{{ $stringa }}</h1>
         </div>
     </main>
     
